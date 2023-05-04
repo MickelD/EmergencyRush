@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55b474083ea02742849451cf870f151, type: 3}
+  m_Name: LevelManager
+  m_EditorClassIdentifier: 
+  levelArray:
+  - ID: 0
+    minMaxNPCsOnScene: {x: 0, y: 0}
+    patientFuseTime: 0
+    minMaxGenerationTime: {x: 0, y: 0}
+    startupDelay: 0
+    maxActivePatients: 0
+    patientGoal: 0
+    postProcessProfile: {fileID: 0}
+    light: {fileID: 0}
+    lightsOn: 0
+  - ID: 1
+    minMaxNPCsOnScene: {x: 15, y: 18}
+    patientFuseTime: 120
+    minMaxGenerationTime: {x: 20, y: 40}
+    startupDelay: 6
+    maxActivePatients: 2
+    patientGoal: 3
+    postProcessProfile: {fileID: 11400000, guid: 332bcc90ca5957e4798afcb2c3b898ad,
+      type: 2}
+    light: {fileID: 328912591845050730, guid: db7761ad02b18244f8db5e7045ad931d, type: 3}
+    lightsOn: 0
+  - ID: 2
+    minMaxNPCsOnScene: {x: 15, y: 18}
+    patientFuseTime: 100
+    minMaxGenerationTime: {x: 20, y: 32}
+    startupDelay: 4.5
+    maxActivePatients: 2
+    patientGoal: 5
+    postProcessProfile: {fileID: 11400000, guid: eba2e0f3cfe3b9b44920b13cb2be6d0d,
+      type: 2}
+    light: {fileID: 412460320541831286, guid: 13f9cdba1a1954c43b420ca80a1b1cb1, type: 3}
+    lightsOn: 1
+  - ID: 3
+    minMaxNPCsOnScene: {x: 16, y: 20}
+    patientFuseTime: 90
+    minMaxGenerationTime: {x: 15, y: 30}
+    startupDelay: 3
+    maxActivePatients: 3
+    patientGoal: 7
+    postProcessProfile: {fileID: 11400000, guid: 7c02eac03adfd784fae7e3c56e78329c,
+      type: 2}
+    light: {fileID: 328912591845050730, guid: db7761ad02b18244f8db5e7045ad931d, type: 3}
+    lightsOn: 1
+  - ID: 4
+    minMaxNPCsOnScene: {x: 18, y: 22}
+    patientFuseTime: 80
+    minMaxGenerationTime: {x: 10, y: 25}
+    startupDelay: 3
+    maxActivePatients: 3
+    patientGoal: 11
+    postProcessProfile: {fileID: 11400000, guid: 304769fc3af5e254a917c5dda5aa0686,
+      type: 2}
+    light: {fileID: 4338341532135987248, guid: 6e05da512f224f045b30dce1f0aaaa4f, type: 3}
+    lightsOn: 0
+  - ID: 5
+    minMaxNPCsOnScene: {x: 20, y: 25}
+    patientFuseTime: 60
+    minMaxGenerationTime: {x: 5, y: 20}
+    startupDelay: 2
+    maxActivePatients: 3
+    patientGoal: 17
+    postProcessProfile: {fileID: 11400000, guid: 7c02eac03adfd784fae7e3c56e78329c,
+      type: 2}
+    light: {fileID: 4338341532135987248, guid: 6e05da512f224f045b30dce1f0aaaa4f, type: 3}
+    lightsOn: 1
+  currentLevel:
+    ID: 1
+    minMaxNPCsOnScene: {x: 15, y: 18}
+    patientFuseTime: 120
+    minMaxGenerationTime: {x: 20, y: 40}
+    startupDelay: 6
+    maxActivePatients: 2
+    patientGoal: 3
+    postProcessProfile: {fileID: 11400000, guid: 332bcc90ca5957e4798afcb2c3b898ad,
+      type: 2}
+    light: {fileID: 328912591845050730, guid: db7761ad02b18244f8db5e7045ad931d, type: 3}
+    lightsOn: 0
